@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+:root {
+    --color-gray-blue: hsl(212, 45%, 89%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-blue: hsl(220, 15%, 55%) ;
+    --color-dark-blue: hsl(218, 44%, 22%);
+    --paragrafo-default: 15px;
+}
+body {
+    background-color: var(--color-gray-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 9rem;
+    
+}
+img{
+    border-radius: 20px;
+}
+.qr-container {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 360px;
+    box-shadow: 0px 6px 20px 0px rgb(179, 179, 179);
+}
+.qr-title {
+    color: var(--color-dark-blue);
+    text-align: center;
+    font-size: 23px;
+    margin-top: 0.25rem;
+    padding: 22px 10px;
+    font: 700;
+
+}
+.qr-paragraph {
+    color: var(--color-light-blue);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+a {
+    color: var(--color-gray-blue);
+    text-decoration:none ;
+}
+footer {
+    margin-top: 17rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    width: 100%;
+}
+
+@media (max-width: 325px) {
+
+}
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+*/
