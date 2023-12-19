@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: .94rem;
+    
+}
+/* font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    place-content: center;
+
+}
+
+.box {
+    width: 20rem;
+    height: 33rem;
+    
+}
+img {
+    width: 5rem;
+    height: 3rem;
+    margin-top: 2.75rem;
+    margin-left: 2.75rem;
+    margin-bottom: 2rem;
+    
+}
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    /* grid-column: 3/4;
+    grid-row: 2/3; */
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+}
+.box1 button{
+    color: hsl(31, 77%, 52%);
+}
+#b1:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%) ;
+    transition: 0.3s;
+}
+.box1 p {
+    margin-right: 4rem;
+}
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+    /* grid-column: 4/5;
+    grid-row: 2/3; */
+}  
+.box2 button{
+    color: hsl(184, 100%, 22%);
+}
+#b2:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%) ;
+    transition: 0.3s;
+}
+.box2 p{
+    margin-right: 4rem;
+}
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    /* grid-column: 5/6;
+    grid-row: 2/3; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.box3 button {
+    margin-top: 5rem;
+    color: hsl(179, 100%, 13%);
+}
+#b3:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%) ;
+    transition: 0.3s;
+
+}
+.box3 p {
+    margin-right: 3.50rem;
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 40px;
+    margin-left: 2.75rem;
+    margin-bottom: 2rem;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: left;
+    margin-left: 2.75rem;
+    margin-right: 2rem;
+    line-height: 1.75rem;
+    
+}
+.btn-LearnMore {
+    /* color: hsl(0, 0%, 95%);
+    background-color: transparent; */
+    color: transparent;
+    background-color: hsl(0, 0%, 95%);
+    padding: .80rem;
+    width: 8rem;
+    border-radius: 999px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 5rem;
+    margin-left: 2.75rem;
+}
+@media (max-width: 948px) {
+    .container {
+        grid-template-columns: repeat(2, 20rem);
+    }
+}
+
+@media (max-width: 658px) {
+    .container {
+        grid-template-columns: repeat(1, 20rem);
+    }
+}
+
+/* 
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
