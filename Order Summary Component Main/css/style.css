@@ -26,20 +26,90 @@ body {
 .card {
     width: 375px;
     height: 600px;
-    background-color: var(--azul-muito-claro);
+    background-color: white;
     text-align: center;
     border-radius: 15px;
+}
+.main-content {
+    padding: 25px;
 }
 .person {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.texto {
-    padding: 1.50rem;
+.texto h1 {
+    font-weight: 900;
+    color: var(--azul-escuro);
+    margin-bottom: 1rem;
 }
+.texto p {
+    color: var(--azul-pastel);
+    font-size: 16px;
+    padding-bottom: 17px;
+    
+}
+.value {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-muito-claro);
+    border-radius: 15px;
+    padding: 20px;
+}
+.Change {
+    color: var(--azul-padrão);
+    padding-left: 60px;
+    font-weight: 500;
+}
+ 
+.Change:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: hsl(245, 75%, 70%);
+}
+.text {
+    padding-left: 20px;
+}
+.plano {
+    color: var(--azul-escuro);
+    font-weight: 900;
+    
 
+}
+.valor {
+    color: var(--azul-pastel);
 
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.button-1 {
+    background-color: var(--azul-padrão);
+    color: white;
+    width: 320px;
+    border-radius: 10px;
+    border: 1px transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow:  1px 12px 19px hsl(245, 75%, 85%);
+}
+.button-1:hover {
+    cursor: pointer;
+    background-color: hsl(245, 75%, 70%);
+}
+.button-2 {
+    background-color: transparent;
+    border: 1px transparent;
+    font-weight: 900;
+    color: var(--azul-pastel);
+}
+.button-2:hover {
+    cursor: pointer;
+    color: var(--azul-escuro);
+}
 /* # Front-end Style Guide
 
 ## Layout
