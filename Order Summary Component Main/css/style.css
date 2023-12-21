@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+ 
+:root {
+    --azul-muito-claro: hsl(225, 100%, 98%) ;
+    --azul-claro: hsl(225, 100%, 94%);
+    --azul-pastel: hsl(224, 23%, 55%);
+    --azul-padrão: hsl(245, 75%, 52%);
+    --azul-escuro: hsl(223, 47%, 23%); 
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--azul-claro);
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 375px;
+    height: 600px;
+    background-color: var(--azul-muito-claro);
+    text-align: center;
+    border-radius: 15px;
+}
+.person {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.texto {
+    padding: 1.50rem;
+}
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900 */
