@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --yellow: #f4d04e;
+    --white: hsl(0, 0%, 100%);
+    --grey: #808080;
+    --black: hsl(0, 0%, 7%);
+    --font-family: 'Figtree', sans-serif;
+    --padding-10px: .62rem;
+    --padding-15px: .93rem;
+    --padding-20px: 1.25rem;
+    --padding-25px: 1.56rem;
+
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--yellow);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card {
+    position: relative;
+    background-color: var(--white);
+    width: 375px;
+    height: 510px;
+    padding: var(--padding-20px);
+    border: 2px solid black;
+    border-radius: 17px;
+    box-shadow: 15px 15px 2px black ;
+}
+.img-article {
+    width: 100%;
+    border-radius: 17px;
+}
+.inicio,
+.data-publicada,
+.main-content h1,
+.main-content p {
+    margin: 20px 0px;
+}
+.title:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+.inicio a {
+    background-color: var(--yellow);
+    color: black;
+    text-decoration: none;
+    padding: 6px 13px;
+    font-weight: 800;
+    border-radius: 5px;
+    
+}
+.data-publicada {
+    color: var(--black);
+    
+}
+
+.main-content p {
+    color: var(--grey);
+}
+.footer {
+    display: flex;
+    align-items: center;
+}
+.footer img {
+    width: 40px;
+}
+.footer p {
+    font-weight: 800;
+    margin: 0px 12px;
+}
+
+.imagem-top {
+    position: absolute;
+    width: 100;
+}
+.imagem-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800 */
