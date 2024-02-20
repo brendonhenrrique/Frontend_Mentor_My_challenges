@@ -1,0 +1,70 @@
+/* 
+
+
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+font-family: "Young Serif", serif;
+
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 
+
+font-family: "Outfit", sans-serif;*/
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+
+    --font01: "Outfit", sans-serif;
+    --font02: "Young Serif", serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Eggshell);
+}
+
+.box {
+    width: 500px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 380px;
+    border-radius: 15px;
+    
+}
