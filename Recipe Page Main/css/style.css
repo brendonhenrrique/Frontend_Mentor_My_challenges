@@ -43,28 +43,111 @@ font-family: "Outfit", sans-serif;*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font01);
+    font-size: 16px;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     background-color: var(--Eggshell);
 }
 
 .box {
-    width: 500px;
+    width: 700px;
     border-radius: 15px;
     padding: 30px;
     background-color: var(--White);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    position: relative;
+    /* align-items: center; */
 }
 img {
-    width: 380px;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+.tittle{
+    color: var(--DarkCharcoal);
+    font-family: var(--font02);
+    font-weight: 500;
     
+    font-size: 40px;
+    padding: 20px 0px 20px 0px;
+}
+.description {
+    margin-bottom: 30px;
+}
+.pinkboxing {
+    background-color: var(--RoseWhite);
+    width: 640px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.preparation {
+    color: var(--DarkRaspberry);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.list ul {
+    margin-left: 30px;
+}
+.pinkboxing li {
+    color: var(--DarkRaspberry);
+    
+    padding: 10px;
+    
+}
+.pinkboxing li span {
+    color: var(--DarkCharcoal);
+}
+
+b{
+    color: var(--WengeBrown);
+}
+
+.ingredients, .instructions {
+    color: var(--Nutmeg);
+    font-family: var(--font02);
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.ingredients-box {
+    margin-bottom: 20px;
+}
+.ingredients-box ul li {
+    color: var(--Nutmeg);
+    margin-left: 25px;
+    padding: 10px;
+}
+.ingredients-box ul li span {
+    color: var(--DarkCharcoal);
+}
+.detalhe{
+    width: 100%;
+    height: 2px;
+    position: absolute;
+
+    background-color: gray;
+}
+.instructions-box {
+    margin-top: 25px;
+}
+.instructions-box ol li{
+    margin-left: 25px;
+    color: var(--Nutmeg);
+    font-weight: 700;
+
+}
+.instructions-box ol li b{
+    margin-left: 15px;
+}
+.instructions-box ol li span {
+    color: var(--DarkCharcoal);
+    font-weight: 400;
 }
