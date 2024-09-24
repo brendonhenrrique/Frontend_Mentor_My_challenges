@@ -137,6 +137,7 @@ b{
 }
 .instructions-box {
     margin-top: 25px;
+    margin-bottom: 20px;
 }
 .instructions-box ol li{
     margin-left: 25px;
@@ -150,4 +151,29 @@ b{
 .instructions-box ol li span {
     color: var(--DarkCharcoal);
     font-weight: 400;
+}
+.nutrition {
+    color: var(--Nutmeg);
+    font-family: var(--font02);
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.description-nutrition {
+    margin-bottom: 10px;
+}
+
+.nutritional-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    color: var(--DarkCharcoal);
+    font-weight: 500;
+    padding: 10px 0px 15px 25px;
+  }
+
+.num {
+    color: var(--Nutmeg);
+    font-weight: 700;
 }
