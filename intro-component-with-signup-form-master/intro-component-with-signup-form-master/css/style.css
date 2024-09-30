@@ -109,11 +109,19 @@ form p b {
 }
 
 .empty {
-    border-color: var(--primaryRed);
+    /* border-color: var(--primaryRed); */
+    border: 2px solid hsl(0, 100%, 74%);
     background-image: url(/Frontend_Mentor_My_challenges/intro-component-with-signup-form-master/intro-component-with-signup-form-master/images/icon-error.svg);
-    background-position: right center;
+    background-position: calc(100% - 20px) center;
     background-repeat: no-repeat;
-    padding-right: 20px;
+    padding: 15px;
+}
+
+span {
+  color: var(--primaryRed);
+  font-size: 10px;
+  font-weight: 500;
+  
 }
 
 
