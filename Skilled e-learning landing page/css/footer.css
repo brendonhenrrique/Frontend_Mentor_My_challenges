@@ -1,0 +1,23 @@
+footer {
+    background-color: var(--colors-yankees-blue);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 46px;
+}
+
+#logo-light {
+    width: 180px;
+}
+
+#get-started-footer {
+    border: none;
+    padding: 25px 50px;
+    border-radius: 50px;
+    background-image: var(--colors-g-magenta-blue);
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--colors-white);
+    text-decoration: none;
+}

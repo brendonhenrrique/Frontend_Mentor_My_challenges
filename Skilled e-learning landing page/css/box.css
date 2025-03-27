@@ -1,0 +1,69 @@
+#box {
+    width: 1720px;
+    /* height: 2000px; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: start;
+    gap: 120px 50px;
+    margin-bottom: 200px;
+}
+
+#img-icon {
+    width: 80px;
+    position: relative;
+    bottom: 34px;
+}
+
+#cards {
+    width: 540px;
+    height: 500px;
+    background-color: var(--colors-white);
+    display: flex;
+    flex-direction: column;   
+    border-radius: 20px; 
+    padding: 0 50px;
+    position: relative;
+}
+
+#cards-checkout {
+    width: 540px;
+    height: 500px;
+    background-image: var(--colors-g-magenta-orange);
+    display: flex;
+    flex-direction: column;  
+    color: white; 
+    font-size: 30px;
+    padding: 100px 0 0 50px;
+    border-radius: 20px;
+}
+
+#card-one {
+    width: 380px;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 800;
+    color: var(--colors-yankees-blue);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#paragraph-of-cards {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--colors-silver);
+    width: 480px;
+    
+}
+
+#get-started-cards {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--colors-pink);
+    position: absolute;
+    bottom: 60px;
+}

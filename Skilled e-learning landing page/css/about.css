@@ -1,42 +1,48 @@
 #about {
     display: flex;
     flex-direction: row;
-    width: 1110px;
-    margin-left: 600px;
+    align-items: center;
+    width: 1800px;
+    margin-bottom: 100px;
 }
 
 h1{
-    font-size: 80px;
+    font-size: 84px;
     font-weight: 800;
     color: var(--colors-yankees-blue);
+    margin-bottom: 40px;
 }
 
 h1 + p {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 600;
     color: var(--colors-silver);
+    width: 680px;
+    margin-bottom: 80px;
+    line-height: 1.5;
 }
 
 #get-started-about {
     border: none;
-    padding: 25px 45px;
-    border-radius: 40px;
+    padding: 30px 45px;
+    border-radius: 50px;
     background-image: var(--colors-g-magenta-orange);
     font-size: 26px;
     font-weight: 600;
     color: var(--colors-white);
+    text-decoration: none;
 }
 
 .text {
-    width: 1110px;
-    height: 365px;
-
+    margin-left: 60px;
 }
 
 #img-hero-about{
-    width: 1580px;
     object-fit: contain;
     position: relative;
-    left: 280px;
-    bottom: 390px;
+    z-index: 1;
+    transform: scale(1.5);
+    left: 420px;
+    bottom: 150px;
+    
 }
