@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root {
+    --colors-dark-blue-gray: #666ca3;
+    --colors-yankees-blue: #13183f;
+    --colors-silver: #83869a;
+    --colors-pink: #f74780;
+    --colors-carnation-pink: #ffa7c3;
+    --colors-white: #ffffff;
+    --colors-g-magenta-orange: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    --colors-g-magenta-blue: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+    --colors-g-hover: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    --fonts-main: "Plus Jakarta Sans", sans-serif;
+}
+
+.organization {
+    display: flex;
+    flex-direction: column;
+}

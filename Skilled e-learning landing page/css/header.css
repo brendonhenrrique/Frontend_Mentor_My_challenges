@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 40px;
+}
+
+#logo-dark {
+    width: 180px;
+}
+
+#get-started-header {
+    padding: 25px 47px;
+    border-radius: 40px;
+    background-color: var(--colors-yankees-blue);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--colors-white);
+}
